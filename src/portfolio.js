@@ -242,7 +242,7 @@ const workExperiences = {
     {
       role: "Junior Data Engineer",
       company: "KPIT Technologies",
-      companylogo: require("./assets/images/kpit.webp"),
+      companylogo: require("./assets/images/kpit.png"),
       date: "December 2020 – April 2021",
       desc: "Built cloud-native data pipelines and analytics platforms on AWS, Snowflake, and Redshift. Developed 15+ Airflow DAGs achieving 99.8% job success rate, engineered Spark-based ETL pipelines improving data reliability by 20%, and optimized data warehouses boosting query performance by 35%—cutting report times from 12 minutes to under 90 seconds.",
       descBullets: [
