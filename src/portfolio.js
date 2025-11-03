@@ -23,10 +23,9 @@ const greeting = {
   username: "Divya Shah",
   title: "Hi all, I'm Divya",
   subTitle: emoji(
-    "Full-stack Software Engineer with 4 years’ experience in scalable web apps using React, Angular, Node.js, Java, Python, and .NET Core. Skilled in cloud (AWS, Azure, GCP), containers, databases, and agile practices."
-  ),
+    "Data Engineer with 4+ years' experience building scalable data architectures and pipelines across AWS, Azure, and multicloud environments. Expert in ETL/ELT design, real-time data integration, and cloud migration using PySpark, Databricks, Airflow, Kafka, and Snowflake."),
   resumeLink:
-    "https://drive.google.com/file/d/1e0WMR584YvRoqV6nupimCnOH3GdoZlKK/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1KiKdfcjz5MhBz76UaehMtQG-lTtdF_mc/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/divya-shah-sde",
   linkedin: "https://www.linkedin.com/in/divyashah3899/",
-  mail: "divya.s@mailshub.com",
+  mail: "divya.s@protectmymails.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -46,22 +45,28 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "PASSIONATE FULL-STACK DEVELOPER DRIVEN TO EXPLORE AND BUILD WITH MODERN TECH STACKS AND EMERGING TECHNOLOGIES.",
+    "PASSIONATE DATA ENGINEER DRIVEN TO BUILD SCALABLE DATA PIPELINES AND CLOUD-NATIVE ARCHITECTURES THAT TRANSFORM RAW DATA INTO ACTIONABLE INSIGHTS.",
   skills: [
     emoji(
-      "⚡ Design and build full-stack web applications with modern frontend frameworks like React or Blazor and robust backend services, using clean and scalable architecture patterns."
+      "⚡ Design and build enterprise-grade ETL/ELT pipelines using Apache Spark, PySpark, and Databricks to process petabyte-scale datasets with high performance and reliability."
     ),
     emoji(
-      "⚡ Develop robust RESTful APIs and real-time features using modern backend frameworks, SignalR (or equivalent), and secure database integrations."
+      "⚡ Architect cloud-native data solutions on AWS (EMR, Glue, Redshift, S3, Lambda) and Azure (Databricks, Data Factory, Data Lake) with automated workflows and real-time streaming."
     ),
     emoji(
-      "⚡ Craft responsive UIs and Progressive Web Apps (PWAs) using modern front-end tools like React, Tailwind CSS, and Bootstrap."
+      "⚡ Develop real-time data integration and streaming pipelines using Apache Kafka, Airflow, and event-driven architectures for mission-critical business operations."
     ),
     emoji(
-      "⚡ Deploy and integrate applications with cloud platforms including Azure, Firebase, and AWS, leveraging Docker for containerization."
+      "⚡ Build and optimize data warehouses and data models using Snowflake, Redshift, and star-schema designs, improving query performance and enabling advanced analytics."
     ),
     emoji(
-      "⚡ Follow best practices in testing, CI/CD, and version control, using tools like xUnit, Git, GitHub Actions, and Azure DevOps."
+      "⚡ Create interactive dashboards and analytics solutions with Tableau, Power BI, and Python (Pandas, NumPy) to deliver actionable insights to stakeholders."
+    ),
+    emoji(
+      "⚡ Implement MLOps pipelines and automated machine learning workflows on Databricks, reducing model deployment time and ensuring production-grade reliability."
+    ),
+    emoji(
+      "⚡ Follow best practices in data governance, quality assurance, CI/CD automation using Git, GitHub Actions, Terraform, and Docker for infrastructure-as-code."
     )
   ],
 
@@ -178,23 +183,31 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend",
+      Stack: "Data Engineering & ETL/ELT",
       progressPercentage: "90%"
     },
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Cloud Platforms (AWS, Azure)",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
+      Stack: "Big Data Technologies (Spark, Kafka, Airflow)",
+      progressPercentage: "88%"
+    },
+    {
+      Stack: "Programming (Python, SQL, PySpark, Scala)",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Data Warehousing (Snowflake, Redshift)",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Data Visualization (Tableau, Power BI)",
       progressPercentage: "80%"
-    },
-    {
-      Stack: "Cloud (AWS, Azure, Google)",
-      progressPercentage: "75%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
@@ -203,36 +216,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Citi",
-      companylogo: require("./assets/images/City.jpg"),
+      role: "Data Engineer",
+      company: "JP Morgan Chase & Co.",
+      companylogo: require("./assets/images/jpmorgan.webp"),
       date: "May 2024 – Present",
-      desc: "Built and optimized high-performance microservices and serverless workflows using Spring Boot, Java 17, AWS, and ASP.NET Core—cutting backend latency by 27% and manual risk processes by 12+ hours/week. Modernized legacy systems and enhanced API resilience, improving security by 48% and accelerating data operations by 35%.",
+      desc: "Lead data architecture and integration strategy for State of Hawaii Child Welfare Modernization Program. Design enterprise-grade data warehouse models, build automated serverless pipelines on AWS, and develop REST/SOAP APIs on Boomi platform—improving query performance by 20%, ensuring 98% data accuracy across 50M+ records, and reducing manual operations by 30%.",
       descBullets: [
-        "Migrated monolithic apps to microservices, boosting scalability and deployment efficiency.",
-        "Set up CI/CD pipelines with Jenkins and GitHub Actions, cutting release time by 40%."
+        "Architected star-schema data warehouse optimizing analytics and establishing single source of truth.",
+        "Built automated AWS data ingestion pipelines (S3, Lambda) with encryption and audit mechanisms.",
+        "Developed secure bi-directional APIs for real-time data exchange between state agencies and SaaS platforms."
       ]
     },
     {
-      role: "Software Engineer",
-      company: "Simform",
-      companylogo: require("./assets/images/Simform.jpg"),
+      role: "Data Engineer",
+      company: "Hexaware Technologies",
+      companylogo: require("./assets/images/hexaware.webp"),
       date: "April 2021 – August 2023",
-      desc: "Engineered full-stack web applications using MERN, .NET Core, and AWS, reducing development time by 30% and ensuring <200ms API performance. Delivered secure, scalable solutions across finance and enterprise domains, with automated deployment pipelines improving release speed and reliability.",
+      desc: "Engineered scalable ETL and ML pipelines on Azure Databricks using PySpark and Python, processing terabyte-scale datasets and enhancing data availability by 40%. Automated data workflows reducing manual effort by 30%, implemented MLOps pipelines cutting model deployment time from 3 weeks to 5 days, and built analytics dashboards driving 20% improvement in conversion rates.",
       descBullets: [
-        "Built modular React + Redux components, cutting frontend duplication by 30%.",
-        "Streamlined build, test, and deployment with GitLab & GitHub Actions, speeding up releases by 35%."
+        "Designed end-to-end automated modeling pipeline with AutoML and hyperparameter tuning.",
+        "Implemented data governance framework reducing data errors by 95% and cleanup time to 30 minutes.",
+        "Developed interactive Tableau and Power BI dashboards enabling real-time business insights."
       ]
     },
     {
-      role: "Junior Software Engineer",
-      company: "Simform",
-      companylogo: require("./assets/images/Simform.jpg"),
+      role: "Junior Data Engineer",
+      company: "KPIT Technologies",
+      companylogo: require("./assets/images/kpit.webp"),
       date: "December 2020 – April 2021",
-      desc: "Developed responsive internal portals using HTML, CSS, JavaScript, and Bootstrap, boosting workflow efficiency by 45%. Collaborated on API integrations and backend data management to enhance real-time functionality and app performance.",
+      desc: "Built cloud-native data pipelines and analytics platforms on AWS, Snowflake, and Redshift. Developed 15+ Airflow DAGs achieving 99.8% job success rate, engineered Spark-based ETL pipelines improving data reliability by 20%, and optimized data warehouses boosting query performance by 35%—cutting report times from 12 minutes to under 90 seconds.",
       descBullets: [
-        "Built dynamic UI components and improved UX, cutting form errors by 50%.",
-        "Optimized PostgreSQL queries and schema design, enhancing app speed by 25%."
+        "Designed star-schema data models consolidating 12+ source systems into unified analytical structures.",
+        "Optimized Redshift/Snowflake queries through advanced tuning and materialized views.",
+        "Automated infrastructure provisioning with Terraform and CI/CD pipelines, achieving 70% faster deployments."
       ]
     }
   ]
@@ -445,15 +461,6 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/11a1QNMZAAOTDn8S_QELvrjHeqYUQkGKn/view?usp=sharing"
         }
       ]
-    },
-
-    {
-      title: "Most Valuable Player (MVP)",
-      subtitle:
-        "Awarded for Outstanding Performance and Team Impact at Simform.",
-      image: require("./assets/images/Simform.jpg"),
-      imageAlt: "Simform Logo",
-      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -528,8 +535,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Interested in working together or have an opportunity to discuss? I’m just a message away.",
-  number: "+1 (516) 319-6776",
-  email_address: "divya.s@mymailshub.com"
+  number: "+1 (628) 245-5521",
+  email_address: "divya.s@protectmymails.com"
 };
 
 // Twitter Section

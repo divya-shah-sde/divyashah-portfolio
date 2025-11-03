@@ -3,86 +3,122 @@ import "./SoftwareSkill.scss";
 
 const skillData = [
   {
-    title: "Languages",
-    skills: ["Java", "C#", "TypeScript", "JavaScript", "Python", "SQL"]
+    title: "Programming Languages",
+    skills: ["Python", "SQL", "Scala", "Java", "R", "Bash/Shell Scripting"]
   },
   {
-    title: "Frontend Frameworks/Libraries",
+    title: "Big Data & Distributed Computing",
     skills: [
-      "Angular 10+",
-      "React.js",
-      "Next.js",
-      "Redux",
-      "Bootstrap 5",
-      "jQuery"
+      "Apache Spark",
+      "PySpark",
+      "Apache Kafka",
+      "Apache Airflow",
+      "Apache Hadoop",
+      "Apache Hive",
+      "Apache Flink",
+      "Databricks"
     ]
   },
   {
-    title: "Backend Frameworks/Libraries",
-    skills: ["Node.js", ".NET Core", "Spring Boot", "J2EE", "Hibernate"]
-  },
-  {
-    title: "Web Technologies",
-    skills: ["HTML5", "CSS3", "Tailwind CSS", "AJAX", "JSON", "XML"]
-  },
-  {
-    title: "Cloud/Application Server",
+    title: "Cloud Platforms",
     skills: [
-      "AWS (EC2, S3, Lambda, RDS)",
-      "Azure (App Services, Blob Storage)",
-      "GCP (Firebase, Cloud Functions)"
+      "AWS (EMR, Glue, Redshift, S3, Lambda, Athena, Kinesis, EC2, DynamoDB)",
+      "Azure (Databricks, Data Factory, Data Lake, Blob Storage, SQL Database)",
+      "Google Cloud Platform (BigQuery, Dataflow, Pub/Sub)"
     ]
   },
   {
-    title: "Database",
+    title: "Data Warehousing & Databases",
     skills: [
-      "MySQL",
+      "Snowflake",
+      "Amazon Redshift",
       "PostgreSQL",
-      "MongoDB",
+      "MySQL",
+      "SQL Server",
       "Oracle",
+      "MongoDB",
+      "Cassandra",
       "DynamoDB",
-      "Firebase Realtime DB"
+      "HBase"
     ]
   },
   {
-    title: "Tools",
+    title: "ETL & Data Integration Tools",
     skills: [
+      "Apache Airflow",
+      "Databricks",
+      "Fivetran",
+      "Talend",
+      "Informatica",
+      "SSIS",
+      "SSRS",
+      "SAS Enterprise Guide",
+      "Boomi Integration Platform",
+      "DBT (Data Build Tool)"
+    ]
+  },
+  {
+    title: "Data Analytics & Visualization",
+    skills: [
+      "Tableau",
+      "Power BI",
+      "AWS QuickSight",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Excel"
+    ]
+  },
+  {
+    title: "Machine Learning & MLOps",
+    skills: [
+      "Azure Databricks ML",
+      "MLflow",
+      "AutoML",
+      "Hyperparameter Tuning",
+      "Statistical Modeling",
+      "Time Series Forecasting",
+      "Cox Proportional Hazards"
+    ]
+  },
+  {
+    title: "DevOps & Infrastructure",
+    skills: [
+      "Docker",
+      "Kubernetes",
+      "Terraform",
       "Git",
       "GitHub",
       "GitLab",
-      "Jenkins",
-      "Postman",
-      "JIRA",
-      "Visual Studio",
-      "Figma",
-      "Docker",
-      "VSCode",
-      "IntelliJ",
-      "Eclipse",
-      "ELK Stack"
-    ]
-  },
-  {
-    title: "Testing & Debugging",
-    skills: [
-      "JUnit",
-      "Mockito",
-      "Jest",
-      "Cypress",
-      "Selenium",
-      "Chrome DevTools",
-      "NUnit",
-      "MS Test Unit"
-    ]
-  },
-  {
-    title: "Deployment & CI/CD",
-    skills: [
       "GitHub Actions",
       "Jenkins",
-      "Docker",
-      "Kubernetes",
-      "Azure DevOps"
+      "BMC Control-M",
+      "CI/CD Pipelines"
+    ]
+  },
+  {
+    title: "Data Governance & Quality",
+    skills: [
+      "Data Modeling",
+      "Data Quality Frameworks",
+      "Metadata Management",
+      "Master Data Management (MDM)",
+      "Data Cataloging",
+      "HIPAA Compliance"
+    ]
+  },
+  {
+    title: "Development Tools & IDEs",
+    skills: [
+      "VSCode",
+      "PyCharm",
+      "Jupyter Notebook",
+      "IntelliJ IDEA",
+      "DataGrip",
+      "Postman",
+      "JIRA",
+      "Confluence"
     ]
   }
 ];
