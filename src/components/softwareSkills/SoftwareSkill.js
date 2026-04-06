@@ -4,121 +4,113 @@ import "./SoftwareSkill.scss";
 const skillData = [
   {
     title: "Programming Languages",
-    skills: ["Python", "SQL", "Scala", "Java", "R", "Bash/Shell Scripting"]
+    skills: ["Java", "Python", "TypeScript", "JavaScript", "SQL", "C#", "C++"]
   },
   {
-    title: "Big Data & Distributed Computing",
+    title: "Backend & Distributed Systems",
     skills: [
-      "Apache Spark",
-      "PySpark",
+      "Spring Boot",
+      "Microservices",
+      "RESTful APIs",
+      "GraphQL",
+      "Hibernate",
+      "JPA",
       "Apache Kafka",
-      "Apache Airflow",
-      "Apache Hadoop",
-      "Apache Hive",
-      "Apache Flink",
-      "Databricks"
+      "RabbitMQ",
+      "Event-Driven Architecture",
+      "Node.js",
+      "Express.js",
+      "Concurrent & Multithreaded Programming"
     ]
   },
   {
-    title: "Cloud Platforms",
+    title: "Cloud & DevOps",
     skills: [
-      "AWS (EMR, Glue, Redshift, S3, Lambda, Athena, Kinesis, EC2, DynamoDB)",
-      "Azure (Databricks, Data Factory, Data Lake, Blob Storage, SQL Database)",
-      "Google Cloud Platform (BigQuery, Dataflow, Pub/Sub)"
-    ]
-  },
-  {
-    title: "Data Warehousing & Databases",
-    skills: [
-      "Snowflake",
-      "Amazon Redshift",
-      "PostgreSQL",
-      "MySQL",
-      "SQL Server",
-      "Oracle",
-      "MongoDB",
-      "Cassandra",
-      "DynamoDB",
-      "HBase"
-    ]
-  },
-  {
-    title: "ETL & Data Integration Tools",
-    skills: [
-      "Apache Airflow",
-      "Databricks",
-      "Fivetran",
-      "Talend",
-      "Informatica",
-      "SSIS",
-      "SSRS",
-      "SAS Enterprise Guide",
-      "Boomi Integration Platform",
-      "DBT (Data Build Tool)"
-    ]
-  },
-  {
-    title: "Data Analytics & Visualization",
-    skills: [
-      "Tableau",
-      "Power BI",
-      "AWS QuickSight",
-      "Pandas",
-      "NumPy",
-      "Matplotlib",
-      "Seaborn",
-      "Excel"
-    ]
-  },
-  {
-    title: "Machine Learning & MLOps",
-    skills: [
-      "Azure Databricks ML",
-      "MLflow",
-      "AutoML",
-      "Hyperparameter Tuning",
-      "Statistical Modeling",
-      "Time Series Forecasting",
-      "Cox Proportional Hazards"
-    ]
-  },
-  {
-    title: "DevOps & Infrastructure",
-    skills: [
+      "AWS (EC2, S3, Lambda, RDS, DynamoDB, API Gateway)",
       "Docker",
       "Kubernetes",
       "Terraform",
-      "Git",
-      "GitHub",
-      "GitLab",
-      "GitHub Actions",
       "Jenkins",
-      "BMC Control-M",
-      "CI/CD Pipelines"
+      "CI/CD Pipelines",
+      "Infrastructure as Code (IaC)",
+      "Prometheus",
+      "Grafana"
     ]
   },
   {
-    title: "Data Governance & Quality",
+    title: "Databases & Data Stores",
     skills: [
-      "Data Modeling",
-      "Data Quality Frameworks",
-      "Metadata Management",
-      "Master Data Management (MDM)",
-      "Data Cataloging",
-      "HIPAA Compliance"
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "DynamoDB",
+      "Redis",
+      "Elasticsearch"
     ]
   },
   {
-    title: "Development Tools & IDEs",
+    title: "Frontend Technologies",
     skills: [
-      "VSCode",
-      "PyCharm",
-      "Jupyter Notebook",
-      "IntelliJ IDEA",
-      "DataGrip",
+      "React.js",
+      "Angular",
+      "Next.js",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Material UI",
+      "HTML5",
+      "CSS3",
+      "SASS"
+    ]
+  },
+  {
+    title: "AI & Applied Machine Learning",
+    skills: [
+      "LangChain",
+      "Retrieval-Augmented Generation (RAG)",
+      "OpenAI APIs",
+      "Hugging Face Transformers",
+      "GPT",
+      "BERT",
+      "MLflow"
+    ]
+  },
+  {
+    title: "Testing & Quality Engineering",
+    skills: [
+      "JUnit",
+      "Mockito",
+      "Cypress",
+      "Selenium",
+      "Jest",
+      "Chai",
       "Postman",
-      "JIRA",
-      "Confluence"
+      "Test-Driven Development (TDD)",
+      "JMeter"
+    ]
+  },
+  {
+    title: "System Design & Engineering Fundamentals",
+    skills: [
+      "High-Level & Low-Level Design (HLD/LLD)",
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming (OOP)",
+      "Design Patterns",
+      "Scalability",
+      "Performance Optimization"
+    ]
+  },
+  {
+    title: "Security & Development Practices",
+    skills: [
+      "OAuth 2.0",
+      "JWT",
+      "Secure API Design",
+      "Git",
+      "Jira",
+      "Agile/Scrum",
+      "Swagger/OpenAPI",
+      "VS Code",
+      "IntelliJ IDEA"
     ]
   }
 ];
