@@ -23,8 +23,8 @@ const greeting = {
   username: "Divya Shah",
   title: "Hi all, I'm Divya",
   subTitle: emoji(
-    "Data Engineer with 4+ years' experience building scalable data architectures and pipelines across AWS, Azure, and multicloud environments. Expert in ETL/ELT design, real-time data integration, and cloud migration using PySpark, Databricks, Airflow, Kafka, and Snowflake."),
-  resumeLink:
+    "Senior Software Engineer with 4.5+ years of experience building scalable, cloud-native systems and AI-enabled platforms across finance and retail. Expert in Java, Spring Boot, microservices, event-driven architectures, and full-stack development using React, Angular, AWS, Kafka, and Terraform."),
+    resumeLink:
     "https://drive.google.com/file/d/1KiKdfcjz5MhBz76UaehMtQG-lTtdF_mc/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/divya-shah-sde",
   linkedin: "https://www.linkedin.com/in/divyashah3899/",
-  mail: "divya.s@protectmymails.com",
+  mail: "divya.shah@savemymails.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -45,28 +45,28 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "PASSIONATE DATA ENGINEER DRIVEN TO BUILD SCALABLE DATA PIPELINES AND CLOUD-NATIVE ARCHITECTURES THAT TRANSFORM RAW DATA INTO ACTIONABLE INSIGHTS.",
+    "SENIOR SOFTWARE ENGINEER PASSIONATE ABOUT BUILDING SCALABLE, CLOUD-NATIVE SYSTEMS AND AI-ENABLED PLATFORMS THAT DRIVE REAL IMPACT IN FINANCE AND ENTERPRISE TECH.",
   skills: [
     emoji(
-      "⚡ Design and build enterprise-grade ETL/ELT pipelines using Apache Spark, PySpark, and Databricks to process petabyte-scale datasets with high performance and reliability."
+      "⚡ Design and develop Java Spring Boot–based distributed systems and microservices architectures, with hands-on experience in asynchronous workflows, idempotent APIs, and graceful degradation for enterprise credit risk and retail platforms."
     ),
     emoji(
-      "⚡ Architect cloud-native data solutions on AWS (EMR, Glue, Redshift, S3, Lambda) and Azure (Databricks, Data Factory, Data Lake) with automated workflows and real-time streaming."
+      "⚡ Build event-driven, high-throughput backend services using Apache Kafka and RabbitMQ, supporting millions of daily events across order management, inventory, and financial risk pipelines."
     ),
     emoji(
-      "⚡ Develop real-time data integration and streaming pipelines using Apache Kafka, Airflow, and event-driven architectures for mission-critical business operations."
+      "⚡ Implement thread-safe, concurrent Java components using advanced concurrency utilities and execution pools to support parallel processing across 15–20 independent business workflows with strict data consistency."
     ),
     emoji(
-      "⚡ Build and optimize data warehouses and data models using Snowflake, Redshift, and star-schema designs, improving query performance and enabling advanced analytics."
+      "⚡ Architect and deploy cloud-native infrastructure on AWS (EC2, S3, Lambda, RDS, DynamoDB, API Gateway) using Docker, Kubernetes, and Terraform, managing 40+ backend services and reducing infrastructure costs by $70K annually."
     ),
     emoji(
-      "⚡ Create interactive dashboards and analytics solutions with Tableau, Power BI, and Python (Pandas, NumPy) to deliver actionable insights to stakeholders."
+      "⚡ Develop full-stack applications with React.js, Angular, and Next.js, delivering interactive dashboards and operational tools actively used by 200–250+ internal analysts, supply chain, and operations teams."
     ),
     emoji(
-      "⚡ Implement MLOps pipelines and automated machine learning workflows on Databricks, reducing model deployment time and ensuring production-grade reliability."
+      "⚡ Integrate Generative AI and Retrieval-Augmented Generation (RAG) workflows using LangChain and OpenAI APIs, enabling natural language querying over 4M+ regulatory documents and credit artifacts."
     ),
     emoji(
-      "⚡ Follow best practices in data governance, quality assurance, CI/CD automation using Git, GitHub Actions, Terraform, and Docker for infrastructure-as-code."
+      "⚡ Apply data structures, algorithmic optimization, and database best practices (PostgreSQL, Redis, MongoDB) to improve query performance by 35% and maintain sub-150ms API response times under peak load."
     )
   ],
 
@@ -180,31 +180,31 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Data Engineering & ETL/ELT",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "Cloud Platforms (AWS, Azure)",
+      Stack: "Backend Development (Java, Spring Boot, Microservices)",
       progressPercentage: "85%"
     },
     {
-      Stack: "Big Data Technologies (Spark, Kafka, Airflow)",
-      progressPercentage: "88%"
-    },
-    {
-      Stack: "Programming (Python, SQL, PySpark, Scala)",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "Data Warehousing (Snowflake, Redshift)",
+      Stack: "Cloud & DevOps (AWS, Docker, Kubernetes, Terraform)",
       progressPercentage: "85%"
     },
     {
-      Stack: "Data Visualization (Tableau, Power BI)",
+      Stack: "Frontend Development (React.js, Angular, Next.js)",
       progressPercentage: "80%"
+    },
+    {
+      Stack: "Databases & Caching (PostgreSQL, Redis, MongoDB, DynamoDB)",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Event-Driven & Distributed Systems (Kafka, RabbitMQ)",
+      progressPercentage: "83%"
+    },
+    {
+      Stack: "AI & GenAI Integration (LangChain, RAG, OpenAI APIs)",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false
@@ -213,42 +213,30 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Data Engineer",
+      role: "Senior Software Engineer",
       company: "JP Morgan Chase & Co.",
       companylogo: require("./assets/images/jpmorgan.webp"),
-      date: "May 2024 – Present",
-      desc: "Lead data architecture and integration strategy for State of Hawaii Child Welfare Modernization Program. Design enterprise-grade data warehouse models, build automated serverless pipelines on AWS, and develop REST/SOAP APIs on Boomi platform—improving query performance by 20%, ensuring 98% data accuracy across 50M+ records, and reducing manual operations by 30%.",
+      date: "Jan 2025 – Present",
+      desc: "Contributing to a Java Spring Boot–based distributed platform for enterprise credit risk and operational resiliency. Built RAG workflows enabling analysts to query 4M+ regulatory documents, provisioned 40+ backend services on Kubernetes with Terraform, and developed React dashboards used by 200+ internal analysts.",
       descBullets: [
-        "Architected star-schema data warehouse optimizing analytics and establishing single source of truth.",
-        "Built automated AWS data ingestion pipelines (S3, Lambda) with encryption and audit mechanisms.",
-        "Developed secure bi-directional APIs for real-time data exchange between state agencies and SaaS platforms."
+        "Implemented thread-safe concurrent processing components supporting parallel risk evaluations across 15–20 independent business workflows.",
+        "Built LangChain and OpenAI-powered RAG pipelines for querying regulatory documents and anonymized credit artifacts with source-attributed responses.",
+        "Provisioned reusable Terraform IaC modules across Kubernetes clusters, IAM configurations, and managed data stores."
       ]
     },
     {
-      role: "Data Engineer",
-      company: "Hexaware Technologies",
-      companylogo: require("./assets/images/hexaware.webp"),
-      date: "April 2021 – August 2023",
-      desc: "Engineered scalable ETL and ML pipelines on Azure Databricks using PySpark and Python, processing terabyte-scale datasets and enhancing data availability by 40%. Automated data workflows reducing manual effort by 30%, implemented MLOps pipelines cutting model deployment time from 3 weeks to 5 days, and built analytics dashboards driving 20% improvement in conversion rates.",
-      descBullets: [
-        "Designed end-to-end automated modeling pipeline with AutoML and hyperparameter tuning.",
-        "Implemented data governance framework reducing data errors by 95% and cleanup time to 30 minutes.",
-        "Developed interactive Tableau and Power BI dashboards enabling real-time business insights."
-      ]
-    },
-    {
-      role: "Junior Data Engineer",
+      role: "Software Engineer",
       company: "KPIT Technologies",
-      companylogo: require("./assets/images/kpit.png"),
-      date: "December 2020 – April 2021",
-      desc: "Built cloud-native data pipelines and analytics platforms on AWS, Snowflake, and Redshift. Developed 15+ Airflow DAGs achieving 99.8% job success rate, engineered Spark-based ETL pipelines improving data reliability by 20%, and optimized data warehouses boosting query performance by 35%—cutting report times from 12 minutes to under 90 seconds.",
+      companylogo: require("./assets/images/kpit.webp"),
+      date: "Jan 2020 – Aug 2023",
+      desc: "Built Spring Boot microservices for a retail order management and inventory platform handling 600K–900K daily events. Engineered Kafka-based event pipelines, led a MySQL-to-PostgreSQL migration improving query performance by 35%, and maintained 99.8% uptime across 18+ microservices.",
       descBullets: [
-        "Designed star-schema data models consolidating 12+ source systems into unified analytical structures.",
-        "Optimized Redshift/Snowflake queries through advanced tuning and materialized views.",
-        "Automated infrastructure provisioning with Terraform and CI/CD pipelines, achieving 70% faster deployments."
+        "Managed Redis caching for high-traffic retail endpoints maintaining sub-150ms API response times during peak hours.",
+        "Architected Angular dashboards for inventory, order tracking, and returns management used by 250+ operations users daily.",
+        "Reduced post-release defects by 30% through comprehensive unit, integration, and load testing with JUnit, Mockito, and JMeter."
       ]
     }
   ]
@@ -535,8 +523,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Interested in working together or have an opportunity to discuss? I’m just a message away.",
-  number: "+1 (628) 245-5521",
-  email_address: "divya.s@protectmymails.com"
+  number: "+1 (628) 243-1377",
+  email_address: "divya.shah@savemymails.com"
 };
 
 // Twitter Section
